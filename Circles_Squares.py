@@ -1,3 +1,5 @@
+print("you are welcome to our program")
+a=str(input("enter your name for better experience = "))
 from sklearn import tree
 import math
 
@@ -27,4 +29,4 @@ print(clf.predict([[1, (4*math.pi)]]))
 # HP=600, number of seats =2
 # Prediction should be a sports car [0]
 print(clf.predict([[0, (4*4)]]))
-
+print("thanks ",a,"for using our program")
